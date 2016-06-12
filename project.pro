@@ -3,7 +3,7 @@
 # Created: 2015-09-22
 # -------------------------------------------------------------------------------
 
-QT += core gui
+QT += core gui svg
 
 TARGET = render
 DESTDIR = bin
@@ -32,7 +32,7 @@ CUDA_OBJECTS_DIR = build
 # CUDA
 CUDA_SOURCES += src/distance.cu
 CUDA_DIR = /opt/cuda
-NVCC_OPTIONS = --use_fast_math
+NVCC_OPTIONS = --use_fast_math -std=c++11 -Xcompiler -D__CORRECT_ISO_CPP11_MATH_H_PROTO -O2
 
 # include paths
 INCLUDEPATH += \
