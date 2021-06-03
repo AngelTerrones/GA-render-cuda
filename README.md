@@ -14,7 +14,7 @@ This has been tested on Archlinux x64, with Qt 5.11 and CUDA 11.3.
 
 <h4>Mona Lisa</h4>
 <p align="center">
-  <img src='./examples/monalisa2.jpg'>
-  <img src='./examples/mona.gif'>
-  <img src="./examples/final.svg">
+  <img src='./examples/monalisa2.jpg'  width="250" >
+  <img src='./examples/mona.gif'  width="250" >
+  <img src="./examples/final.png"  width="250" >
 </p>
