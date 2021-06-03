@@ -6,7 +6,7 @@ using polygons.
 ## Prerequisites
 
 - Qt5
-- CUDA (and of course, and NVIDIA GPU).
+- CUDA (and of course, a CUDA-capable GPU).
 
 This has been tested on Archlinux x64, with Qt 5.11 and CUDA 11.3.
 
